@@ -1,3 +1,5 @@
+#Q13. Is there a correlation between leadership skills and expected salary of the students?
+
 import pandas as pd
 
 # Load the data from the Excel file
@@ -16,3 +18,10 @@ correlation = data.corr()
 
 # Print the result
 print(f'Correlation between leadership skills and expected salary: {correlation}')
+
+'''
+Correlation between leadership skills and expected salary:           
+       expected_salary  leadership
+expected_salary         1.000000    0.003963
+leadership              0.003963    1.000000
+'''
