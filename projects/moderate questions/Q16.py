@@ -1,3 +1,5 @@
+#Q16. Find the total number of students who attend the events related to Data Science ?
+
 import pandas as pd
 
 # Load the data from the Excel file
@@ -10,3 +12,5 @@ data_science_students = data[data['Events'].str.contains('data science', case=Fa
 num_data_science_students = len(data_science_students)
 
 print(f'There are {num_data_science_students} students who attend events related to data science.')
+
+#There are 306 students who attend events related to data science.
