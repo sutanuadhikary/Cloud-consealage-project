@@ -1,3 +1,5 @@
+#Q15. Which promotion channel brings in more student participations for the event?
+
 import pandas as pd
 
 # Load the data from the Excel file
@@ -11,3 +13,7 @@ most_popular_event = promotion_counts.idxmax()
 
 #print(promotion_counts)
 print('The promoyion channel that tends to attract more students is:',  most_popular_event)
+
+'''
+The promoyion channel that tends to attract more students is: Whatsapp
+'''
