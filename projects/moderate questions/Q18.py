@@ -1,3 +1,5 @@
+#Q18. How many students know about the event from their collages? Which of these top 5 collages?
+
 import pandas as pd
 
 # Load the data from the Excel file
@@ -19,4 +21,14 @@ top_5_colleges = college_counts.sort_values(ascending=False).head(5)
 
 print('The top 5 colleges with the most students who know about the event are:')
 print(top_5_colleges)
+
+'''There are 71 students who know about the event from their colleges.
+The top 5 colleges with the most students who know about the event are:
+College Name
+Wilson college                                             5
+vidyalankar institute of technology, mumbai                5
+GOVERNMENT POLYTECHNIC GANDHINAGAR                         4
+wilson college                                             4
+g h raisoni institut of engineering and technology pune    3
+'''
 
