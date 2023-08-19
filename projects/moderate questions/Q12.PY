@@ -1,3 +1,5 @@
+#Q12. Do students in leadership positions during their college years tend to have heigher GPAs or better expected salary?
+
 import pandas as pd
 
 # Load the data from the Excel file
@@ -22,3 +24,9 @@ if not non_leadership_df.empty:
     print(f'Average expected salary for students without leadership skills: {avg_non_leadership_salary}')
 else:
     print('No data available for students without leadership skills')
+
+'''Average GPA for students with leadership skills: 8.036787247087677
+Average expected salary for students with leadership skills: 13.971796443899448
+Average GPA for students without leadership skills: 8.040444274224436
+Average expected salary for students without leadership skills: 13.795097663730372
+'''
