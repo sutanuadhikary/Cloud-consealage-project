@@ -1,3 +1,5 @@
+# Q6. How does the GPA vary amoung different collages? (show top 5 results only)
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
