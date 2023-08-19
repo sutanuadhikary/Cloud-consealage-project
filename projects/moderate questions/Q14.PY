@@ -1,3 +1,5 @@
+#Q14. How many students are gratuating by the end of 2024?
+
 import pandas as pd
 
 # Load the data from the Excel file
@@ -10,3 +12,7 @@ graduating_students = data[data['Year of Graduation'] <= 2024]
 num_graduating_students = len(graduating_students)
 
 print(f'There are {num_graduating_students} students graduating by the end of 2024.')
+
+'''
+There are 3047 students graduating by the end of 2024.
+'''
