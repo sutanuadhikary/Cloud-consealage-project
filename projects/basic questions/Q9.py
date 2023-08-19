@@ -1,3 +1,5 @@
+# Can we identify any relationship between family income and GPA?
+
 import pandas as pd
 from scipy import stats
 
@@ -18,3 +20,8 @@ df = df[(df['CGPA'] >= 0) & (df['CGPA'] <= 10)]
 corr, p_value = stats.pearsonr(df['Family Income'], df['CGPA'])
 print(f'Correlation: {corr:.2f}')
 print(f'P-value: {p_value:.2f}')
+
+'''
+Correlation: 0.01
+P-value: 0.67
+'''
