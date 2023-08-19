@@ -1,3 +1,5 @@
+# Q1.How many unique students are included in the dataset?
+
 import pandas as pd
 
 # Read the data from the Excel file
@@ -10,3 +12,5 @@ unique_students = df['First Name'].unique()
 num_unique_students = len(unique_students)
 
 print(f'There are {num_unique_students} unique students in the dataset.')
+
+# Conclusion: There are 2324 unique students in the dataset. 
