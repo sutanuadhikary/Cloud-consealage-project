@@ -1,3 +1,5 @@
+#Q10. How does the expected salary vary based on factords like 'GPA' , 'family income', 'Experience with python(Months)'?
+
 import pandas as pd
 import statsmodels.formula.api as smf
 
@@ -17,3 +19,5 @@ model = smf.ols('expected_salary ~ CGPA + Family_Income + Python_Experience', da
 
 model.summary()
 print(model.summary())
+
+'''
